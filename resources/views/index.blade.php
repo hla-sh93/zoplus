@@ -92,7 +92,7 @@
 
         <div class="row">
 
-          <div class="col-lg-6 pt-4 pt-lg-0 content">
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>عن الشركة </h3>
             <p>
               @foreach($about as $info)
@@ -109,9 +109,9 @@
             </ul> --}}
           </div>
 
-          <div class="col-lg-6">
+          <div class="col-lg-4">
             @if($info->logo)
-            <img src="{{Voyager::image($info->logo)}}" class="img-fluid mx-auto d-block" alt="zero one plus" width="350px">
+            <img src="{{Voyager::image($info->logo)}}" class="img-fluid mx-auto d-block mt-5" alt="zero one plus" width="300px">
             @endif
             
             @endforeach
